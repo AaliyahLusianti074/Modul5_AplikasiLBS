@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/background2">
+
+    <LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    android:layout_marginLeft="30dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sdi" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="191dp"
+        android:layout_height="127dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="257dp">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="357dp"
+        android:layout_height="33dp"
+        android:layout_weight="30"
+        android:background="@drawable/viewmaps"
+        android:onClick="masukmaps"
+        tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sdn" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="191dp"
+        android:layout_height="127dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="557dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="357dp"
+            android:layout_height="33dp"
+            android:layout_weight="30"
+            android:background="@drawable/viewmaps2"
+            android:onClick="masukmaps2"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+</RelativeLayout>
